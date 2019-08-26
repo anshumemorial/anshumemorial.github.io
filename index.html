@@ -61,8 +61,7 @@
     overflow-x:hidden;
     }
     
-    .preloader{position:fixed;top:0;bottom:0;left:0;right:0;z-index:99999; background-color: #2a2a72;background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
-    opacity:.95;
+    .preloader{position:fixed;top:0;bottom:0;left:0;right:0;z-index:99999; background-color: rgba(0,0,0,.8);ackground-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
     }
     .center-center{display:flex;flex-direction: column;justify-content: center;align-items:center;}
     .logoCover{
@@ -72,9 +71,7 @@
     background-size:100px;
     width:100px;height:100px;
     }
-    .preloader p{position:relative; color:#fff;}
-    .preloader p{margin-top:7vh;}
-    .preloader div{width:100vmin;}
+    .preloader h4, p{position:relative; color:#fff;}
     
     
     /* Reset CSS*/
@@ -82,7 +79,6 @@
         margin:0;
         padding:0;
         box-sizing:border-box;
-        order:1px solid !important;
     }
     .ifram{
     width:100vw;height:100vh;border:none;
@@ -92,10 +88,9 @@
   <body>
       <!--preloader-->
       <div class="preloader center-center" >
-          <div class="logoCover" ></div>
-          <div class="center-center" >
-              <p>Website under maintainess.</p>
-          </div>
+          <div class="logoCover" ></div><br>
+          <h4 class="p1" >Website under maintenance.</h4>
+          <p>~Satish</p>
       </div>
       <iframe class="ifram"  src="https://anshumemorial.in/project" >
     </script>
